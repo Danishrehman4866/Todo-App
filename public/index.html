@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=inpu, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container" style="width: 50%; margin: 0 auto;">
+        <h1>TODO APP</h1>
+        <input id="input" style="width: 100%; padding: 10px;border-radius: 5px;border: 1px solid;outline: auto;" type="text" placeholder="ENTER TODO.....">
+        <div>
+            <br>
+            <button style="background-color: lightcoral;padding: 5px;border-radius: 5px;color: white;border: none;cursor: pointer;"  onclick="addTodo()">ADD TODO</button>
+            <button style="background-color: lightskyblue;padding: 5px;border-radius: 5px;color: white;border: none;cursor: pointer;" onclick="delAll()">DELETE ALL</button>
+            <br>
+            TODO ITEMS: <small id="items"> </small>
+        </div>
+    </div>
+    <div class="container">
+
+        <ul id="todoList" style="margin: 0;">
+
+        </ul>
+
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
